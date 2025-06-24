@@ -897,3 +897,246 @@ Feature names seen at fit time, yet now missing:
 2025-06-24 15:26:40,443 - INFO - 192.168.1.16 - - [24/Jun/2025 15:26:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2025-06-24 15:26:44,694 - INFO - Dự đoán cho URL/text 'http://allegrolokalnie.8293783.shop': rf_confidence=0.5465, result=Phishing
 2025-06-24 15:26:44,695 - INFO - 192.168.1.16 - - [24/Jun/2025 15:26:44] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 19:44:20,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 19:44:20,536 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 19:44:38,630 - INFO - 192.168.1.16 - - [24/Jun/2025 19:44:38] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 19:44:38,720 - INFO - 192.168.1.16 - - [24/Jun/2025 19:44:38] "[36mGET /static/css/main.19374850.css HTTP/1.1[0m" 304 -
+2025-06-24 19:44:38,786 - INFO - 192.168.1.16 - - [24/Jun/2025 19:44:38] "[36mGET /static/js/main.3904ec5d.js HTTP/1.1[0m" 304 -
+2025-06-24 19:44:40,941 - INFO - 192.168.1.16 - - [24/Jun/2025 19:44:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-24 19:44:53,872 - ERROR - Không thể tải mô hình random_forest_URL_pickle: Tệp mô hình models\random_forest_URL.pkl không tồn tại
+2025-06-24 19:44:53,873 - ERROR - Lỗi khi xử lý URL/text: Tệp mô hình models\random_forest_URL.pkl không tồn tại
+2025-06-24 19:44:53,874 - INFO - 192.168.1.16 - - [24/Jun/2025 19:44:53] "[35m[1mPOST /api/url/predict HTTP/1.1[0m" 500 -
+2025-06-24 19:45:05,168 - ERROR - Không thể tải mô hình random_forest_URL_pickle: Tệp mô hình models\random_forest_URL.pkl không tồn tại
+2025-06-24 19:45:05,168 - ERROR - Lỗi khi xử lý URL/text: Tệp mô hình models\random_forest_URL.pkl không tồn tại
+2025-06-24 19:45:05,170 - INFO - 192.168.1.16 - - [24/Jun/2025 19:45:05] "[35m[1mPOST /api/url/predict HTTP/1.1[0m" 500 -
+2025-06-24 19:45:09,032 - ERROR - Không thể tải mô hình random_forest_URL_pickle: Tệp mô hình models\random_forest_URL.pkl không tồn tại
+2025-06-24 19:45:09,032 - ERROR - Lỗi khi xử lý URL/text: Tệp mô hình models\random_forest_URL.pkl không tồn tại
+2025-06-24 19:45:09,034 - INFO - 192.168.1.16 - - [24/Jun/2025 19:45:09] "[35m[1mPOST /api/url/predict HTTP/1.1[0m" 500 -
+2025-06-24 19:46:39,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 19:46:39,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 19:46:44,349 - INFO - 192.168.1.16 - - [24/Jun/2025 19:46:44] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 19:46:44,387 - INFO - 192.168.1.16 - - [24/Jun/2025 19:46:44] "[36mGET /static/css/main.19374850.css HTTP/1.1[0m" 304 -
+2025-06-24 19:46:44,390 - INFO - 192.168.1.16 - - [24/Jun/2025 19:46:44] "[36mGET /static/js/main.3904ec5d.js HTTP/1.1[0m" 304 -
+2025-06-24 19:46:50,426 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-24 19:47:16,206 - WARNING - Failed to capture screenshot for URL: https://vuphong.vn/
+2025-06-24 19:47:18,158 - INFO - Dự đoán cho URL/text 'https://vuphong.vn/': rf_confidence=0.5064, result=Phishing
+2025-06-24 19:47:18,159 - INFO - 192.168.1.16 - - [24/Jun/2025 19:47:18] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 19:48:27,019 - INFO - Dự đoán cho URL/text 'https://baomoi.com/': rf_confidence=0.5064, result=Phishing
+2025-06-24 19:48:27,019 - INFO - 192.168.1.16 - - [24/Jun/2025 19:48:27] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 19:48:54,676 - INFO - Dự đoán cho URL/text 'https://baomoi.com/noi-dau-tot-cung-cua-2-chi-em-trong-vu-an-giet-nguoi-r52582486.epi#homepage|recommend|index0': rf_confidence=0.4700, result=Hợp pháp
+2025-06-24 19:48:54,692 - INFO - 192.168.1.16 - - [24/Jun/2025 19:48:54] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 19:49:15,697 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-24 19:49:17,796 - INFO - Dự đoán hình ảnh cho Minigame_LCD_khoa_ien_tu.png: cnn_confidence=0.3468, prediction=hợp pháp
+2025-06-24 19:49:17,813 - INFO - 192.168.1.16 - - [24/Jun/2025 19:49:17] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 19:49:36,050 - INFO - Đã tải mô hình: random_forest_file_pickle
+2025-06-24 19:49:36,072 - INFO - Dự đoán tệp ND_MON_HOC_LSCSVN.pdf: rf_confidence=23.0%, result=hợp pháp
+2025-06-24 19:49:36,076 - INFO - 192.168.1.16 - - [24/Jun/2025 19:49:36] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-24 20:05:32,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:05:32,090 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:05:37,122 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:37] "GET / HTTP/1.1" 200 -
+2025-06-24 20:05:37,172 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:37] "GET /static/js/main.b789e01d.js HTTP/1.1" 200 -
+2025-06-24 20:05:37,173 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:37] "GET /static/css/main.6b41e7c8.css HTTP/1.1" 200 -
+2025-06-24 20:05:50,450 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:50] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:05:50,505 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:50] "[36mGET /static/js/main.b789e01d.js HTTP/1.1[0m" 304 -
+2025-06-24 20:05:50,507 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:50] "[36mGET /static/css/main.6b41e7c8.css HTTP/1.1[0m" 304 -
+2025-06-24 20:05:56,293 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:56] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:05:56,334 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:56] "[36mGET /static/js/main.b789e01d.js HTTP/1.1[0m" 304 -
+2025-06-24 20:05:56,349 - INFO - 192.168.1.16 - - [24/Jun/2025 20:05:56] "[36mGET /static/css/main.6b41e7c8.css HTTP/1.1[0m" 304 -
+2025-06-24 20:10:51,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:10:51,110 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:10:56,477 - INFO - 192.168.1.16 - - [24/Jun/2025 20:10:56] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-24 20:11:02,243 - INFO - 192.168.1.16 - - [24/Jun/2025 20:11:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-24 20:11:06,459 - INFO - 192.168.1.16 - - [24/Jun/2025 20:11:06] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-24 20:12:23,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:12:23,320 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:12:30,869 - INFO - 192.168.1.16 - - [24/Jun/2025 20:12:30] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-24 20:13:35,228 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:13:35,229 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:13:39,002 - INFO - 192.168.1.16 - - [24/Jun/2025 20:13:39] "GET / HTTP/1.1" 200 -
+2025-06-24 20:13:39,061 - INFO - 192.168.1.16 - - [24/Jun/2025 20:13:39] "GET /static/css/main.6b41e7c8.css HTTP/1.1" 200 -
+2025-06-24 20:13:39,067 - INFO - 192.168.1.16 - - [24/Jun/2025 20:13:39] "GET /static/js/main.b789e01d.js HTTP/1.1" 200 -
+2025-06-24 20:14:01,276 - INFO - 192.168.1.16 - - [24/Jun/2025 20:14:01] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:14:01,318 - INFO - 192.168.1.16 - - [24/Jun/2025 20:14:01] "[36mGET /static/js/main.b789e01d.js HTTP/1.1[0m" 304 -
+2025-06-24 20:14:01,320 - INFO - 192.168.1.16 - - [24/Jun/2025 20:14:01] "[36mGET /static/css/main.6b41e7c8.css HTTP/1.1[0m" 304 -
+2025-06-24 20:25:26,121 - INFO - 192.168.1.16 - - [24/Jun/2025 20:25:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:25:26,161 - INFO - 192.168.1.16 - - [24/Jun/2025 20:25:26] "[36mGET /static/css/main.6b41e7c8.css HTTP/1.1[0m" 304 -
+2025-06-24 20:25:26,166 - INFO - 192.168.1.16 - - [24/Jun/2025 20:25:26] "[36mGET /static/js/main.b789e01d.js HTTP/1.1[0m" 304 -
+2025-06-24 20:25:44,767 - INFO - 192.168.1.16 - - [24/Jun/2025 20:25:44] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:25:44,799 - INFO - 192.168.1.16 - - [24/Jun/2025 20:25:44] "[36mGET /static/js/main.b789e01d.js HTTP/1.1[0m" 304 -
+2025-06-24 20:25:44,801 - INFO - 192.168.1.16 - - [24/Jun/2025 20:25:44] "[36mGET /static/css/main.6b41e7c8.css HTTP/1.1[0m" 304 -
+2025-06-24 20:30:33,948 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:30:33,948 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:30:37,276 - INFO - 192.168.1.16 - - [24/Jun/2025 20:30:37] "GET / HTTP/1.1" 200 -
+2025-06-24 20:30:37,324 - INFO - 192.168.1.16 - - [24/Jun/2025 20:30:37] "GET /static/js/main.c2256ed5.js HTTP/1.1" 200 -
+2025-06-24 20:30:37,327 - INFO - 192.168.1.16 - - [24/Jun/2025 20:30:37] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-24 20:34:24,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:34:24,011 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:34:28,008 - INFO - 192.168.1.16 - - [24/Jun/2025 20:34:28] "GET / HTTP/1.1" 200 -
+2025-06-24 20:34:28,042 - INFO - 192.168.1.16 - - [24/Jun/2025 20:34:28] "GET /static/js/main.f4bc8180.js HTTP/1.1" 200 -
+2025-06-24 20:34:28,045 - INFO - 192.168.1.16 - - [24/Jun/2025 20:34:28] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-24 20:38:25,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:38:25,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:38:35,683 - INFO - 192.168.1.16 - - [24/Jun/2025 20:38:35] "GET / HTTP/1.1" 200 -
+2025-06-24 20:38:35,729 - INFO - 192.168.1.16 - - [24/Jun/2025 20:38:35] "GET /static/js/main.59e7f04f.js HTTP/1.1" 200 -
+2025-06-24 20:38:35,731 - INFO - 192.168.1.16 - - [24/Jun/2025 20:38:35] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-24 20:41:06,207 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:06] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:41:06,248 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:06] "[36mGET /static/js/main.59e7f04f.js HTTP/1.1[0m" 304 -
+2025-06-24 20:41:06,253 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:06] "[36mGET /static/css/main.f2034d48.css HTTP/1.1[0m" 304 -
+2025-06-24 20:41:28,027 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-24 20:41:32,841 - INFO - Dự đoán cho URL/text 'https://hatgpt.com': rf_confidence=0.8013, result=Phishing
+2025-06-24 20:41:32,848 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:32] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 20:41:33,722 - INFO - Dự đoán cho URL/text 'https://www.facebook.com/': rf_confidence=0.2021, result=Hợp pháp
+2025-06-24 20:41:33,724 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:33] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 20:41:35,641 - INFO - Dự đoán cho URL/text 'https://www.facebook.com/': rf_confidence=0.2021, result=Hợp pháp
+2025-06-24 20:41:35,641 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:35] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 20:41:47,938 - INFO - Dự đoán hình ảnh cho z6736603153769_acff93f407feebb6a6350dfa10186f14.jpg: cnn_confidence=0.1040, prediction=hợp pháp
+2025-06-24 20:41:47,938 - INFO - 192.168.1.16 - - [24/Jun/2025 20:41:47] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 20:42:43,773 - WARNING - Cannot set gray non-stroke color because /'Pattern1' is an invalid float value
+2025-06-24 20:42:43,789 - INFO - Dự đoán tệp Mau_phieu_van_ap.pdf: rf_confidence=22.0%, result=hợp pháp
+2025-06-24 20:42:43,792 - INFO - 192.168.1.16 - - [24/Jun/2025 20:42:43] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-24 20:46:36,049 - INFO - 192.168.1.16 - - [24/Jun/2025 20:46:36] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:46:36,175 - INFO - 192.168.1.16 - - [24/Jun/2025 20:46:36] "[36mGET /static/js/main.59e7f04f.js HTTP/1.1[0m" 304 -
+2025-06-24 20:46:36,179 - INFO - 192.168.1.16 - - [24/Jun/2025 20:46:36] "[36mGET /static/css/main.f2034d48.css HTTP/1.1[0m" 304 -
+2025-06-24 20:46:37,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:46:37,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:46:59,017 - WARNING - Failed to capture screenshot for URL: https://vuphong.vn/
+2025-06-24 20:47:00,063 - INFO - Dự đoán cho URL/text 'https://vuphong.vn/': rf_confidence=0.5064, result=Phishing
+2025-06-24 20:47:00,064 - INFO - 192.168.1.16 - - [24/Jun/2025 20:47:00] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 20:49:44,899 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:49:44,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:49:44,903 - INFO -  * Restarting with stat
+2025-06-24 20:49:50,092 - WARNING -  * Debugger is active!
+2025-06-24 20:49:50,100 - INFO -  * Debugger PIN: 245-298-087
+2025-06-24 20:49:55,711 - INFO - 192.168.1.16 - - [24/Jun/2025 20:49:55] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-24 20:49:55,744 - INFO - 192.168.1.16 - - [24/Jun/2025 20:49:55] "[36mGET /static/js/main.59e7f04f.js HTTP/1.1[0m" 304 -
+2025-06-24 20:49:55,765 - INFO - 192.168.1.16 - - [24/Jun/2025 20:49:55] "[36mGET /static/css/main.f2034d48.css HTTP/1.1[0m" 304 -
+2025-06-24 20:50:05,414 - INFO - Dự đoán hình ảnh cho chart.png: cnn_confidence=0.3479, prediction=hợp pháp
+2025-06-24 20:50:05,415 - INFO - 192.168.1.16 - - [24/Jun/2025 20:50:05] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 20:50:08,014 - INFO - Dự đoán hình ảnh cho chart.png: cnn_confidence=0.3479, prediction=hợp pháp
+2025-06-24 20:50:08,015 - INFO - 192.168.1.16 - - [24/Jun/2025 20:50:08] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 20:50:11,747 - INFO - Dự đoán hình ảnh cho chart.png: cnn_confidence=0.3479, prediction=hợp pháp
+2025-06-24 20:50:11,748 - INFO - 192.168.1.16 - - [24/Jun/2025 20:50:11] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 20:52:52,609 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:52:52,610 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:52:52,611 - INFO -  * Restarting with stat
+2025-06-24 20:52:55,689 - INFO - 192.168.1.16 - - [24/Jun/2025 20:52:55] "GET / HTTP/1.1" 200 -
+2025-06-24 20:52:55,770 - INFO - 192.168.1.16 - - [24/Jun/2025 20:52:55] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-24 20:52:55,774 - INFO - 192.168.1.16 - - [24/Jun/2025 20:52:55] "GET /static/js/main.3904ec5d.js HTTP/1.1" 200 -
+2025-06-24 20:52:58,217 - WARNING -  * Debugger is active!
+2025-06-24 20:52:58,231 - INFO -  * Debugger PIN: 245-298-087
+2025-06-24 20:53:04,037 - INFO - Dự đoán hình ảnh cho ChatGPT_Image_22_38_34_4_thg_4_2025.png: cnn_confidence=0.6225, prediction=nguy hiểm
+2025-06-24 20:53:04,040 - INFO - 192.168.1.16 - - [24/Jun/2025 20:53:04] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 20:53:15,385 - INFO - Dự đoán tệp n22dcat059.pdf: rf_confidence=27.0%, result=hợp pháp
+2025-06-24 20:53:15,389 - INFO - 192.168.1.16 - - [24/Jun/2025 20:53:15] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-24 20:53:26,230 - INFO - Dự đoán cho URL/text 'https://chongluadao.vn/': rf_confidence=0.4662, result=Hợp pháp
+2025-06-24 20:53:26,232 - INFO - 192.168.1.16 - - [24/Jun/2025 20:53:26] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 20:55:20,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-24 20:55:20,832 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-24 20:55:20,834 - INFO -  * Restarting with stat
+2025-06-24 20:55:25,627 - WARNING -  * Debugger is active!
+2025-06-24 20:55:25,636 - INFO -  * Debugger PIN: 245-298-087
+2025-06-24 20:55:33,347 - INFO - 192.168.1.16 - - [24/Jun/2025 20:55:33] "GET / HTTP/1.1" 200 -
+2025-06-24 20:55:33,399 - INFO - 192.168.1.16 - - [24/Jun/2025 20:55:33] "GET /static/js/main.59e7f04f.js HTTP/1.1" 200 -
+2025-06-24 20:55:33,402 - INFO - 192.168.1.16 - - [24/Jun/2025 20:55:33] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-24 20:55:41,972 - INFO - Dự đoán hình ảnh cho IMG_20250407_081512.jpg: cnn_confidence=0.0006, prediction=hợp pháp
+2025-06-24 20:55:41,982 - INFO - 192.168.1.16 - - [24/Jun/2025 20:55:41] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-24 20:56:23,456 - INFO - Dự đoán tệp malicious_with_js.pdf: rf_confidence=84.0%, result=nguy hiểm
+2025-06-24 20:56:23,461 - INFO - 192.168.1.16 - - [24/Jun/2025 20:56:23] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-24 20:56:32,068 - INFO - Dự đoán tệp test.pdf: rf_confidence=70.0%, result=nguy hiểm
+2025-06-24 20:56:32,071 - INFO - 192.168.1.16 - - [24/Jun/2025 20:56:32] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-24 20:56:46,247 - INFO - Dự đoán cho URL/text 'https://baomoi.com/': rf_confidence=0.5064, result=Phishing
+2025-06-24 20:56:46,251 - INFO - 192.168.1.16 - - [24/Jun/2025 20:56:46] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-24 21:07:08,015 - INFO - Dự đoán hình ảnh cho IMG_3037.JPG: cnn_confidence=0.0057, prediction=hợp pháp
+2025-06-24 21:07:08,022 - INFO - 192.168.1.16 - - [24/Jun/2025 21:07:08] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 06:23:52,803 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 06:23:52,818 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 06:23:52,818 - INFO -  * Restarting with stat
+2025-06-25 06:23:57,682 - WARNING -  * Debugger is active!
+2025-06-25 06:23:57,699 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 06:24:57,843 - INFO - 127.0.0.1 - - [25/Jun/2025 06:24:57] "GET / HTTP/1.1" 200 -
+2025-06-25 06:24:57,938 - INFO - 127.0.0.1 - - [25/Jun/2025 06:24:57] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 06:24:58,127 - INFO - 127.0.0.1 - - [25/Jun/2025 06:24:58] "GET /static/js/main.59e7f04f.js HTTP/1.1" 200 -
+2025-06-25 06:25:00,402 - INFO - 127.0.0.1 - - [25/Jun/2025 06:25:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 06:32:54,989 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 06:32:54,989 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 06:32:54,996 - INFO -  * Restarting with stat
+2025-06-25 06:32:59,664 - WARNING -  * Debugger is active!
+2025-06-25 06:32:59,664 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 06:33:00,147 - INFO - 127.0.0.1 - - [25/Jun/2025 06:33:00] "GET / HTTP/1.1" 200 -
+2025-06-25 06:33:00,202 - INFO - 127.0.0.1 - - [25/Jun/2025 06:33:00] "GET /static/js/main.d4c311eb.js HTTP/1.1" 200 -
+2025-06-25 06:33:00,208 - INFO - 127.0.0.1 - - [25/Jun/2025 06:33:00] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 06:33:08,702 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 06:33:31,089 - WARNING - Failed to capture screenshot for URL: https://chatgpt.com/c/685b343a-bef0-800c-b8c0-50f71887fe89
+2025-06-25 06:33:32,636 - INFO - Dự đoán cho URL/text 'https://chatgpt.com/c/685b343a-bef0-800c-b8c0-50f71887fe89': rf_confidence=0.7900, result=Phishing
+2025-06-25 06:33:32,636 - INFO - 127.0.0.1 - - [25/Jun/2025 06:33:32] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 06:34:37,699 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 06:34:39,716 - INFO - Dự đoán hình ảnh cho IMG_20250407_152815.jpg: cnn_confidence=0.5287, prediction=nguy hiểm
+2025-06-25 06:34:39,732 - INFO - 127.0.0.1 - - [25/Jun/2025 06:34:39] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 06:36:17,326 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 06:36:17,327 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 06:36:17,330 - INFO -  * Restarting with stat
+2025-06-25 06:36:21,880 - WARNING -  * Debugger is active!
+2025-06-25 06:36:21,888 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 06:36:25,771 - INFO - 127.0.0.1 - - [25/Jun/2025 06:36:25] "GET / HTTP/1.1" 200 -
+2025-06-25 06:36:25,806 - INFO - 127.0.0.1 - - [25/Jun/2025 06:36:25] "GET /static/js/main.fa444439.js HTTP/1.1" 200 -
+2025-06-25 06:36:25,810 - INFO - 127.0.0.1 - - [25/Jun/2025 06:36:25] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 06:36:35,408 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 06:36:37,557 - INFO - Dự đoán hình ảnh cho ChatGPT_Image_22_38_34_4_thg_4_2025.png: cnn_confidence=0.6225, prediction=nguy hiểm
+2025-06-25 06:36:37,574 - INFO - 127.0.0.1 - - [25/Jun/2025 06:36:37] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 06:37:15,011 - INFO - Đã tải mô hình: random_forest_file_pickle
+2025-06-25 06:37:15,025 - INFO - Dự đoán tệp n22dcat059.pdf: rf_confidence=27.0%, result=hợp pháp
+2025-06-25 06:37:15,036 - INFO - 127.0.0.1 - - [25/Jun/2025 06:37:15] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 06:37:21,202 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 06:37:29,771 - INFO - Dự đoán cho URL/text 'https://www.youtube.com/watch?v=XfNvrPRG6LU&list=PLodO7Gi1F7R0zA8RkRHcDgnPduNBmjkb5&index=34': rf_confidence=0.0100, result=Hợp pháp
+2025-06-25 06:37:29,773 - INFO - 127.0.0.1 - - [25/Jun/2025 06:37:29] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 06:40:13,849 - INFO - 127.0.0.1 - - [25/Jun/2025 06:40:13] "[31m[1mPOST /api/image/predict HTTP/1.1[0m" 400 -
+2025-06-25 06:40:24,103 - INFO - Dự đoán tệp malicious_with_js.pdf: rf_confidence=84.0%, result=nguy hiểm
+2025-06-25 06:40:24,103 - INFO - 127.0.0.1 - - [25/Jun/2025 06:40:24] "POST /api/file/predict HTTP/1.1" 200 -
