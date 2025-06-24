@@ -1,0 +1,5 @@
+# Bỏ qua thư mục chứa các gói đã cài
+node_modules/
+# Ignore large dataset and model files
+dataset_URL/phishing_URL.csv
+models/random_forest_URL.pkl
