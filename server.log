@@ -1140,3 +1140,299 @@ Feature names seen at fit time, yet now missing:
 2025-06-25 06:40:13,849 - INFO - 127.0.0.1 - - [25/Jun/2025 06:40:13] "[31m[1mPOST /api/image/predict HTTP/1.1[0m" 400 -
 2025-06-25 06:40:24,103 - INFO - Dự đoán tệp malicious_with_js.pdf: rf_confidence=84.0%, result=nguy hiểm
 2025-06-25 06:40:24,103 - INFO - 127.0.0.1 - - [25/Jun/2025 06:40:24] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 08:41:34,277 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 08:41:34,278 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 08:41:34,280 - INFO -  * Restarting with stat
+2025-06-25 08:41:39,280 - WARNING -  * Debugger is active!
+2025-06-25 08:41:39,281 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 08:41:40,428 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:40] "GET / HTTP/1.1" 200 -
+2025-06-25 08:41:40,505 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:40] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 08:41:40,646 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:40] "GET /static/js/main.fa444439.js HTTP/1.1" 200 -
+2025-06-25 08:41:42,601 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 08:41:58,143 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:58] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-25 08:41:58,194 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:58] "[36mGET /static/js/main.fa444439.js HTTP/1.1[0m" 304 -
+2025-06-25 08:41:58,197 - INFO - 192.168.1.16 - - [25/Jun/2025 08:41:58] "[36mGET /static/css/main.f2034d48.css HTTP/1.1[0m" 304 -
+2025-06-25 08:42:14,206 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 08:42:29,575 - INFO - Dự đoán cho URL/text 'https://www.youtube.com/?hl=vi': rf_confidence=0.0200, result=Hợp pháp
+2025-06-25 08:42:29,575 - INFO - 192.168.1.16 - - [25/Jun/2025 08:42:29] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 08:43:03,633 - INFO - Dự đoán cho URL/text 'https://www.youtube.com/watch?v=MH_awLonjMU&list=RDMH_awLonjMU&start_radio=1': rf_confidence=0.0100, result=Hợp pháp
+2025-06-25 08:43:03,639 - INFO - 192.168.1.16 - - [25/Jun/2025 08:43:03] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 08:56:03,541 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 08:56:03,541 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 08:56:03,541 - INFO -  * Restarting with stat
+2025-06-25 08:56:09,363 - WARNING -  * Debugger is active!
+2025-06-25 08:56:09,370 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 08:56:09,768 - INFO - 192.168.1.16 - - [25/Jun/2025 08:56:09] "GET / HTTP/1.1" 200 -
+2025-06-25 08:56:09,815 - INFO - 192.168.1.16 - - [25/Jun/2025 08:56:09] "GET /static/js/main.08e5f3a7.js HTTP/1.1" 200 -
+2025-06-25 08:56:09,818 - INFO - 192.168.1.16 - - [25/Jun/2025 08:56:09] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 08:56:24,807 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 08:56:25,298 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 08:56:25,312 - INFO - 192.168.1.16 - - [25/Jun/2025 08:56:25] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 08:59:58,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 08:59:58,160 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 08:59:58,161 - INFO -  * Restarting with stat
+2025-06-25 09:00:03,529 - WARNING -  * Debugger is active!
+2025-06-25 09:00:03,537 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:00:19,697 - INFO - 192.168.1.16 - - [25/Jun/2025 09:00:19] "GET / HTTP/1.1" 200 -
+2025-06-25 09:00:19,741 - INFO - 192.168.1.16 - - [25/Jun/2025 09:00:19] "GET /static/js/main.3430788a.js HTTP/1.1" 200 -
+2025-06-25 09:00:19,748 - INFO - 192.168.1.16 - - [25/Jun/2025 09:00:19] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 09:00:33,934 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 09:00:36,198 - INFO - Dự đoán hình ảnh cho chart.png: cnn_confidence=0.3479, prediction=hợp pháp
+2025-06-25 09:00:36,198 - INFO - 192.168.1.16 - - [25/Jun/2025 09:00:36] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 09:01:05,924 - INFO - Dự đoán hình ảnh cho ChatGPT_Image_22_38_34_4_thg_4_2025.png: cnn_confidence=0.6225, prediction=nguy hiểm
+2025-06-25 09:01:05,927 - INFO - 192.168.1.16 - - [25/Jun/2025 09:01:05] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 09:01:13,762 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 09:01:14,209 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 09:01:14,240 - INFO - 192.168.1.16 - - [25/Jun/2025 09:01:14] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 09:05:03,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 09:05:03,885 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 09:05:03,887 - INFO -  * Restarting with stat
+2025-06-25 09:05:09,257 - WARNING -  * Debugger is active!
+2025-06-25 09:05:09,268 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:05:09,721 - INFO - 192.168.1.16 - - [25/Jun/2025 09:05:09] "GET / HTTP/1.1" 200 -
+2025-06-25 09:05:09,756 - INFO - 192.168.1.16 - - [25/Jun/2025 09:05:09] "GET /static/js/main.6cdc6471.js HTTP/1.1" 200 -
+2025-06-25 09:05:09,759 - INFO - 192.168.1.16 - - [25/Jun/2025 09:05:09] "GET /static/css/main.f2034d48.css HTTP/1.1" 200 -
+2025-06-25 09:10:53,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 09:10:53,551 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 09:10:53,551 - INFO -  * Restarting with stat
+2025-06-25 09:10:58,020 - WARNING -  * Debugger is active!
+2025-06-25 09:10:58,037 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:11:27,443 - INFO - 192.168.1.16 - - [25/Jun/2025 09:11:27] "GET / HTTP/1.1" 200 -
+2025-06-25 09:11:27,493 - INFO - 192.168.1.16 - - [25/Jun/2025 09:11:27] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 09:11:27,497 - INFO - 192.168.1.16 - - [25/Jun/2025 09:11:27] "GET /static/js/main.85b88bc9.js HTTP/1.1" 200 -
+2025-06-25 09:13:27,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 09:13:27,152 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 09:13:27,154 - INFO -  * Restarting with stat
+2025-06-25 09:13:32,138 - WARNING -  * Debugger is active!
+2025-06-25 09:13:32,138 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:13:32,505 - INFO - 192.168.1.16 - - [25/Jun/2025 09:13:32] "GET / HTTP/1.1" 200 -
+2025-06-25 09:13:32,561 - INFO - 192.168.1.16 - - [25/Jun/2025 09:13:32] "GET /static/js/main.7a785e84.js HTTP/1.1" 200 -
+2025-06-25 09:13:32,564 - INFO - 192.168.1.16 - - [25/Jun/2025 09:13:32] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 09:13:34,644 - INFO - 192.168.1.16 - - [25/Jun/2025 09:13:34] "GET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1" 200 -
+2025-06-25 09:16:17,906 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 09:16:17,906 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 09:16:17,906 - INFO -  * Restarting with stat
+2025-06-25 09:16:22,089 - WARNING -  * Debugger is active!
+2025-06-25 09:16:22,089 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:16:25,773 - INFO - 192.168.1.16 - - [25/Jun/2025 09:16:25] "GET / HTTP/1.1" 200 -
+2025-06-25 09:16:25,822 - INFO - 192.168.1.16 - - [25/Jun/2025 09:16:25] "GET /static/js/main.cf6f0ab3.js HTTP/1.1" 200 -
+2025-06-25 09:16:25,827 - INFO - 192.168.1.16 - - [25/Jun/2025 09:16:25] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 09:17:01,390 - INFO - 192.168.1.16 - - [25/Jun/2025 09:17:01] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-25 09:17:01,421 - INFO - 192.168.1.16 - - [25/Jun/2025 09:17:01] "[36mGET /static/js/main.cf6f0ab3.js HTTP/1.1[0m" 304 -
+2025-06-25 09:17:01,425 - INFO - 192.168.1.16 - - [25/Jun/2025 09:17:01] "[36mGET /static/css/main.a18838e1.css HTTP/1.1[0m" 304 -
+2025-06-25 09:19:14,418 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 09:19:14,418 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 09:19:14,418 - INFO -  * Restarting with stat
+2025-06-25 09:19:20,565 - WARNING -  * Debugger is active!
+2025-06-25 09:19:20,577 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:19:32,495 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:32] "GET / HTTP/1.1" 200 -
+2025-06-25 09:19:32,542 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:32] "GET /static/js/main.7b41f8f6.js HTTP/1.1" 200 -
+2025-06-25 09:19:32,546 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:32] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 09:19:34,065 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:34] "GET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1" 200 -
+2025-06-25 09:19:55,092 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:55] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-25 09:19:55,124 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:55] "[36mGET /static/css/main.a18838e1.css HTTP/1.1[0m" 304 -
+2025-06-25 09:19:55,126 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:55] "[36mGET /static/js/main.7b41f8f6.js HTTP/1.1[0m" 304 -
+2025-06-25 09:19:56,618 - INFO - 192.168.1.16 - - [25/Jun/2025 09:19:56] "[36mGET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1[0m" 304 -
+2025-06-25 09:20:05,269 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 09:20:05,770 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 09:20:05,788 - INFO - 192.168.1.16 - - [25/Jun/2025 09:20:05] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 09:20:21,437 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 09:20:23,405 - INFO - Dự đoán hình ảnh cho IMG_3091.JPG: cnn_confidence=0.0211, prediction=hợp pháp
+2025-06-25 09:20:23,405 - INFO - 192.168.1.16 - - [25/Jun/2025 09:20:23] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 09:54:13,105 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 09:54:13,105 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 09:54:13,105 - INFO -  * Restarting with stat
+2025-06-25 09:54:17,683 - WARNING -  * Debugger is active!
+2025-06-25 09:54:17,683 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 09:54:18,370 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:18] "GET / HTTP/1.1" 200 -
+2025-06-25 09:54:18,417 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:18] "GET /static/js/main.e7cee2ed.js HTTP/1.1" 200 -
+2025-06-25 09:54:18,421 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:18] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 09:54:20,539 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:20] "GET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1" 200 -
+2025-06-25 09:54:22,705 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:22] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-25 09:54:22,753 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:22] "[36mGET /static/js/main.e7cee2ed.js HTTP/1.1[0m" 304 -
+2025-06-25 09:54:22,755 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:22] "[36mGET /static/css/main.a18838e1.css HTTP/1.1[0m" 304 -
+2025-06-25 09:54:24,240 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:24] "[36mGET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1[0m" 304 -
+2025-06-25 09:54:35,246 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 09:54:43,574 - INFO - Dự đoán cho URL/text 'https://boxicons.com/icons/sun-bright?s=rounded&w=thin&f=false&q=light': rf_confidence=0.6541, result=Phishing
+2025-06-25 09:54:43,574 - INFO - 192.168.1.16 - - [25/Jun/2025 09:54:43] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 09:55:21,232 - INFO - Dự đoán cho URL/text 'https://boxicons.com/': rf_confidence=0.5190, result=Phishing
+2025-06-25 09:55:21,232 - INFO - 192.168.1.16 - - [25/Jun/2025 09:55:21] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 09:56:14,393 - INFO - Đã tải mô hình: random_forest_file_pickle
+2025-06-25 09:56:14,411 - INFO - Dự đoán tệp DANH_SACH_E_TAI_NMCNPM_D22AT_Project_Final_Ky_ten.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 09:56:14,411 - INFO - 192.168.1.16 - - [25/Jun/2025 09:56:14] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:56:26,980 - INFO - Dự đoán tệp Thamkhao.pdf: rf_confidence=37.0%, result=hợp pháp
+2025-06-25 09:56:26,985 - INFO - 192.168.1.16 - - [25/Jun/2025 09:56:26] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:57:35,395 - INFO - Dự đoán tệp Bao_cao_mat_ma_hoc_nhom_2.pdf: rf_confidence=24.0%, result=hợp pháp
+2025-06-25 09:57:35,395 - INFO - 192.168.1.16 - - [25/Jun/2025 09:57:35] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:57:59,732 - INFO - Dự đoán tệp test.pdf: rf_confidence=70.0%, result=nguy hiểm
+2025-06-25 09:57:59,732 - INFO - 192.168.1.16 - - [25/Jun/2025 09:57:59] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:58:02,548 - INFO - Dự đoán tệp test.pdf: rf_confidence=70.0%, result=nguy hiểm
+2025-06-25 09:58:02,564 - INFO - 192.168.1.16 - - [25/Jun/2025 09:58:02] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:58:08,204 - INFO - Dự đoán tệp malicious_with_js.pdf: rf_confidence=84.0%, result=nguy hiểm
+2025-06-25 09:58:08,207 - INFO - 192.168.1.16 - - [25/Jun/2025 09:58:08] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:58:27,703 - INFO - Dự đoán tệp HOC_VIEN_CONG_NGHE_BUU_CHINH_VIEN_THONG.pdf: rf_confidence=27.0%, result=hợp pháp
+2025-06-25 09:58:27,703 - INFO - 192.168.1.16 - - [25/Jun/2025 09:58:27] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:58:41,046 - INFO - Dự đoán tệp OnTap.pdf: rf_confidence=4.0%, result=hợp pháp
+2025-06-25 09:58:41,050 - INFO - 192.168.1.16 - - [25/Jun/2025 09:58:41] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:59:23,425 - INFO - Dự đoán tệp OnTap.pdf: rf_confidence=4.0%, result=hợp pháp
+2025-06-25 09:59:23,428 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:23] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:59:41,135 - INFO - Dự đoán tệp OnTap.pdf: rf_confidence=4.0%, result=hợp pháp
+2025-06-25 09:59:41,135 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:41] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:59:47,802 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 09:59:47,802 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:47] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 09:59:52,664 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:52] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-25 09:59:52,713 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:52] "[36mGET /static/js/main.e7cee2ed.js HTTP/1.1[0m" 304 -
+2025-06-25 09:59:52,717 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:52] "[36mGET /static/css/main.a18838e1.css HTTP/1.1[0m" 304 -
+2025-06-25 09:59:54,710 - INFO - 192.168.1.16 - - [25/Jun/2025 09:59:54] "[36mGET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1[0m" 304 -
+2025-06-25 10:00:01,105 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:01,105 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:01] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:14,843 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:14,843 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:14] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:16,845 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:16,845 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:16] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:18,075 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:18,075 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:18] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:27,911 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:27,911 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:27] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:36,846 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:36,846 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:36] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:52,466 - INFO - Dự đoán tệp A.pdf: rf_confidence=16.0%, result=hợp pháp
+2025-06-25 10:00:52,466 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:52] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:00:58,518 - INFO - Dự đoán tệp N22DCAT006_-_ANG_PHUOC_BAO.pdf: rf_confidence=0.0%, result=hợp pháp
+2025-06-25 10:00:58,518 - INFO - 192.168.1.16 - - [25/Jun/2025 10:00:58] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:01:50,221 - INFO - Dự đoán tệp Thamkhao.pdf: rf_confidence=37.0%, result=hợp pháp
+2025-06-25 10:01:50,224 - INFO - 192.168.1.16 - - [25/Jun/2025 10:01:50] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:02:20,900 - INFO - Dự đoán tệp EX53_N22DCAT019.pdf: rf_confidence=14.0%, result=hợp pháp
+2025-06-25 10:02:20,900 - INFO - 192.168.1.16 - - [25/Jun/2025 10:02:20] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:06:08,799 - INFO - Dự đoán tệp Diem_thanh_phan.pdf: rf_confidence=7.0%, result=hợp pháp
+2025-06-25 10:06:08,799 - INFO - 192.168.1.16 - - [25/Jun/2025 10:06:08] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:28:33,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 10:28:33,836 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 10:28:33,838 - INFO -  * Restarting with stat
+2025-06-25 10:28:38,251 - WARNING -  * Debugger is active!
+2025-06-25 10:28:38,267 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 10:28:42,270 - INFO - 192.168.1.16 - - [25/Jun/2025 10:28:42] "GET / HTTP/1.1" 200 -
+2025-06-25 10:28:42,305 - INFO - 192.168.1.16 - - [25/Jun/2025 10:28:42] "GET /static/js/main.ab9786f8.js HTTP/1.1" 200 -
+2025-06-25 10:28:42,312 - INFO - 192.168.1.16 - - [25/Jun/2025 10:28:42] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 10:28:44,873 - INFO - 192.168.1.16 - - [25/Jun/2025 10:28:44] "GET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1" 200 -
+2025-06-25 10:28:56,177 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 10:29:01,643 - INFO - Dự đoán cho URL/text 'https://github.com/Yairoo04/PhishingAI_Detection_System': rf_confidence=0.5204, result=Phishing
+2025-06-25 10:29:01,643 - INFO - 192.168.1.16 - - [25/Jun/2025 10:29:01] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:29:15,446 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:29:15,953 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 10:29:15,973 - INFO - 192.168.1.16 - - [25/Jun/2025 10:29:15] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:29:26,931 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:29:26,931 - INFO - 192.168.1.16 - - [25/Jun/2025 10:29:26] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:29:38,785 - INFO - Đã tải mô hình: random_forest_file_pickle
+2025-06-25 10:29:38,808 - INFO - Dự đoán tệp n22dcat059.pdf: rf_confidence=27.0%, result=hợp pháp
+2025-06-25 10:29:38,810 - INFO - 192.168.1.16 - - [25/Jun/2025 10:29:38] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:30:06,161 - INFO - Trích xuất headers: {'Return-Path': '<bell1hmed@yahoo.ca>', 'Delivered-To': 'zzzz@localhost.spamassassin.taint.org', 'Received': 'from n2now709.com ([64.86.155.148]) by dogma.slashnull.org    (8.11.6/8.11.6) with SMTP id g7MKV5Z23408 for <zzzz@jmason.org>;    Thu, 22 Aug 2002 21:31:06 +0100', 'Message-Id': '<200208222031.g7MKV5Z23408@dogma.slashnull.org>', 'From': 'Dr Bello Ahmed <bell1hmed@yahoo.ca>', 'Reply-To': 'bell1hmed@yahoo.ca', 'Date': 'Thu, 22 Aug 2002 13:31:18 -0700', 'Subject': 'Relationship', 'X-Mailer': 'Microsoft Outlook Express 5.00.2919.6900 DM', 'MIME-Version': '1.0', 'Content-Type': 'multipart/mixed; boundary="===_SecAtt_000_1fheucnqggtggp"', 'To': 'undisclosed-recipients:;'}
+2025-06-25 10:30:06,178 - INFO - Trích xuất đặc trưng email: {'hops': 3, 'missing_subject': 0, 'missing_to': 0, 'missing_content-type': 0, 'missing_mime-version': 0, 'missing_x-mailer': 0, 'missing_delivered-to': 0, 'missing_list-unsubscribe': 1, 'missing_received-spf': 1, 'missing_reply-to': 0, 'str_from_chevron': 1, 'str_to_chevron': 0, 'str_message-ID_dollar': 0, 'str_return-path_bounce': 0, 'str_content-type_texthtml': 0, 'domain_match_from_return-path': 1, 'domain_match_to_from': 0, 'domain_match_to_message-id': 0, 'domain_match_from_reply-to': 1, 'domain_match_message-id_from': 0, 'length_from': 35, 'num_recipients_to': 1, 'num_recipients_cc': 0, 'time_zone': 1, 'day_of_week': 3, 'span_time': 49237.0, 'date_comp_date_received': 1, 'content-encoding-val': 0, 'received_str_forged': 0, 'number_replies': 0}
+2025-06-25 10:30:06,234 - INFO - Đã tải mô hình: random_forest_email_pickle
+2025-06-25 10:30:06,246 - INFO - Dự đoán cho phishing_email_523.eml: rf_confidence=72.0%, result=Phishing
+2025-06-25 10:30:06,248 - INFO - 192.168.1.16 - - [25/Jun/2025 10:30:06] "POST /api/email/predict HTTP/1.1" 200 -
+2025-06-25 10:30:53,116 - WARNING - Failed to capture screenshot for URL: https://grok.com/chat/5a440004-b770-4bf5-8a71-9bcdfaa13e91
+2025-06-25 10:30:54,300 - INFO - Dự đoán cho URL/text 'https://grok.com/chat/5a440004-b770-4bf5-8a71-9bcdfaa13e91': rf_confidence=0.6647, result=Phishing
+2025-06-25 10:30:54,300 - INFO - 192.168.1.16 - - [25/Jun/2025 10:30:54] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:31:07,569 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 10:31:09,569 - INFO - Dự đoán hình ảnh cho IMG_3037.JPG: cnn_confidence=0.0057, prediction=hợp pháp
+2025-06-25 10:31:09,586 - INFO - 192.168.1.16 - - [25/Jun/2025 10:31:09] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:31:21,205 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:31:21,221 - INFO - 192.168.1.16 - - [25/Jun/2025 10:31:21] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:33:08,193 - INFO - Dự đoán cho URL/text 'https://nowezamowienie.info': rf_confidence=0.9142, result=Phishing
+2025-06-25 10:33:08,193 - INFO - 192.168.1.16 - - [25/Jun/2025 10:33:08] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:33:18,629 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:33:18,646 - INFO - 192.168.1.16 - - [25/Jun/2025 10:33:18] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:33:50,734 - INFO - Dự đoán cho URL/text 'https://www.facebook.com/': rf_confidence=0.2021, result=Hợp pháp
+2025-06-25 10:33:50,735 - INFO - 192.168.1.16 - - [25/Jun/2025 10:33:50] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:33:55,887 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:33:55,903 - INFO - 192.168.1.16 - - [25/Jun/2025 10:33:55] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:46:11,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 10:46:11,784 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 10:46:11,784 - INFO -  * Restarting with stat
+2025-06-25 10:46:16,096 - WARNING -  * Debugger is active!
+2025-06-25 10:46:16,096 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 10:46:31,470 - INFO - 192.168.1.16 - - [25/Jun/2025 10:46:31] "GET / HTTP/1.1" 200 -
+2025-06-25 10:46:31,507 - INFO - 192.168.1.16 - - [25/Jun/2025 10:46:31] "GET /static/js/main.7bcfeda9.js HTTP/1.1" 200 -
+2025-06-25 10:46:31,508 - INFO - 192.168.1.16 - - [25/Jun/2025 10:46:31] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 10:46:33,674 - INFO - 192.168.1.16 - - [25/Jun/2025 10:46:33] "GET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1" 200 -
+2025-06-25 10:46:45,445 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 10:46:49,111 - INFO - Dự đoán cho URL/text 'https://www.facebook.com/': rf_confidence=0.2021, result=Hợp pháp
+2025-06-25 10:46:49,111 - INFO - 192.168.1.16 - - [25/Jun/2025 10:46:49] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:46:56,879 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 10:46:59,030 - INFO - Dự đoán hình ảnh cho Figure_1.png: cnn_confidence=0.5863, prediction=nguy hiểm
+2025-06-25 10:46:59,030 - INFO - 192.168.1.16 - - [25/Jun/2025 10:46:59] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:47:04,582 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:47:05,032 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 10:47:05,048 - INFO - 192.168.1.16 - - [25/Jun/2025 10:47:05] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:47:15,716 - INFO - Dự đoán cho URL/text 'https://nowezamowienie.info': rf_confidence=0.9142, result=Phishing
+2025-06-25 10:47:15,716 - INFO - 192.168.1.16 - - [25/Jun/2025 10:47:15] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:57:33,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.16:5001
+2025-06-25 10:57:33,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 10:57:33,359 - INFO -  * Restarting with stat
+2025-06-25 10:57:39,246 - WARNING -  * Debugger is active!
+2025-06-25 10:57:39,262 - INFO -  * Debugger PIN: 245-298-087
+2025-06-25 10:57:39,770 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:39] "GET / HTTP/1.1" 200 -
+2025-06-25 10:57:39,795 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:39] "GET /static/js/main.d260021c.js HTTP/1.1" 200 -
+2025-06-25 10:57:39,798 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:39] "GET /static/css/main.a18838e1.css HTTP/1.1" 200 -
+2025-06-25 10:57:42,748 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:42] "GET /static/media/boxicons.df635aaf04cd75132f62.woff2 HTTP/1.1" 200 -
+2025-06-25 10:57:44,202 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:44] "[36mGET / HTTP/1.1[0m" 304 -
+2025-06-25 10:57:44,232 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:44] "[36mGET /static/js/main.d260021c.js HTTP/1.1[0m" 304 -
+2025-06-25 10:57:44,240 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:44] "[36mGET /static/css/main.a18838e1.css HTTP/1.1[0m" 304 -
+2025-06-25 10:57:52,566 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 10:57:56,203 - INFO - Dự đoán cho URL/text 'https://www.facebook.com/': rf_confidence=0.2021, result=Hợp pháp
+2025-06-25 10:57:56,203 - INFO - 192.168.1.16 - - [25/Jun/2025 10:57:56] "POST /api/url/predict HTTP/1.1" 200 -
+2025-06-25 10:58:07,533 - INFO - Đã tải mô hình: cnn_phishing_image_keras
+2025-06-25 10:58:09,599 - INFO - Dự đoán hình ảnh cho IMG_3029.JPG: cnn_confidence=0.0087, prediction=hợp pháp
+2025-06-25 10:58:09,599 - INFO - 192.168.1.16 - - [25/Jun/2025 10:58:09] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:58:16,584 - INFO - Phát hiện mã QR: https://nowezamowienie.info
+2025-06-25 10:58:17,021 - INFO - Đã tải mô hình: random_forest_URL_pickle
+2025-06-25 10:58:17,031 - INFO - 192.168.1.16 - - [25/Jun/2025 10:58:17] "POST /api/image/predict HTTP/1.1" 200 -
+2025-06-25 10:58:39,523 - INFO - Đã tải mô hình: random_forest_file_pickle
+2025-06-25 10:58:39,543 - INFO - Dự đoán tệp n22dcat059.pdf: rf_confidence=27.0%, result=hợp pháp
+2025-06-25 10:58:39,547 - INFO - 192.168.1.16 - - [25/Jun/2025 10:58:39] "POST /api/file/predict HTTP/1.1" 200 -
+2025-06-25 10:58:51,524 - INFO - Trích xuất headers: {'Return-Path': '<bell1hmed@yahoo.ca>', 'Delivered-To': 'zzzz@localhost.spamassassin.taint.org', 'Received': 'from n2now709.com ([64.86.155.148]) by dogma.slashnull.org    (8.11.6/8.11.6) with SMTP id g7MKV5Z23408 for <zzzz@jmason.org>;    Thu, 22 Aug 2002 21:31:06 +0100', 'Message-Id': '<200208222031.g7MKV5Z23408@dogma.slashnull.org>', 'From': 'Dr Bello Ahmed <bell1hmed@yahoo.ca>', 'Reply-To': 'bell1hmed@yahoo.ca', 'Date': 'Thu, 22 Aug 2002 13:31:18 -0700', 'Subject': 'Relationship', 'X-Mailer': 'Microsoft Outlook Express 5.00.2919.6900 DM', 'MIME-Version': '1.0', 'Content-Type': 'multipart/mixed; boundary="===_SecAtt_000_1fheucnqggtggp"', 'To': 'undisclosed-recipients:;'}
+2025-06-25 10:58:51,529 - INFO - Trích xuất đặc trưng email: {'hops': 3, 'missing_subject': 0, 'missing_to': 0, 'missing_content-type': 0, 'missing_mime-version': 0, 'missing_x-mailer': 0, 'missing_delivered-to': 0, 'missing_list-unsubscribe': 1, 'missing_received-spf': 1, 'missing_reply-to': 0, 'str_from_chevron': 1, 'str_to_chevron': 0, 'str_message-ID_dollar': 0, 'str_return-path_bounce': 0, 'str_content-type_texthtml': 0, 'domain_match_from_return-path': 1, 'domain_match_to_from': 0, 'domain_match_to_message-id': 0, 'domain_match_from_reply-to': 1, 'domain_match_message-id_from': 0, 'length_from': 35, 'num_recipients_to': 1, 'num_recipients_cc': 0, 'time_zone': 1, 'day_of_week': 3, 'span_time': 49237.0, 'date_comp_date_received': 1, 'content-encoding-val': 0, 'received_str_forged': 0, 'number_replies': 0}
+2025-06-25 10:58:51,561 - INFO - Đã tải mô hình: random_forest_email_pickle
+2025-06-25 10:58:51,568 - INFO - Dự đoán cho phishing_email_523.eml: rf_confidence=72.0%, result=Phishing
+2025-06-25 10:58:51,576 - INFO - 192.168.1.16 - - [25/Jun/2025 10:58:51] "POST /api/email/predict HTTP/1.1" 200 -
+2025-06-25 10:59:35,356 - INFO - Trích xuất headers: {'Delivered-To': 'n22dcat019@student.ptithcm.edu.vn', 'Received': 'from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id ffacd0b85a97d-3a095a8bfb4sor2922472f8f.9.2025.05.06.01.52.23        for <d22cqat01-n@student.ptithcm.edu.vn>        (Google Transport Security);        Tue, 06 May 2025 01:52:23 -0700 (PDT)', 'X-Forwarded-Encrypted': 'i=1; AJvYcCWCgs/3M8JQWbuejt51k/GxGAsL51G+m2hBOhaGIsHQ9/LbWWkzclUHAaS4N07aDgJjF1dNlN13QKV7XQ==@student.ptithcm.edu.vn', 'X-Received': 'by 2002:a05:6000:1a8b:b0:391:10c5:d1a9 with SMTP id ffacd0b85a97d-3a0ac0eb10amr1750636f8f.31.1746521542105; Tue, 06 May 2025 01:52:22 -0700 (PDT)', 'ARC-Seal': 'i=1; a=rsa-sha256; t=1746521543; cv=none;        d=google.com; s=arc-20240605;        b=aUkHKeHb+2p0BdWr6B5bwLJKTtar6gm4lfoWQFUAixlk9Uz382S2LCOez9J1Ab+YYi         NDxsg8gB4q+LZxklzZEyxYBf1mlLn9lTxbPChIyt6Il/NiIPdf9lYLVIWflNxC4VL35U         QNs9zha9FZx5KYzdyABC0fYFLV8uqcw/4os43I8niuaYKqrzPA7g8vDy41ND4WVqensz         1mKcAI5rFyAL0IZ8ktwC2piBeGRmyEWmYVHZwieUhOpLWqbnEWsLYXHkHqZHpMM/Bjt6         j/PRrySuQ2JpoJiu3wQhowMJ36d1puiI5Dt8ZtxGmaiCGVG4w2vv+KDF5jgHA49OfcLH         E2uw==', 'ARC-Message-Signature': 'i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=m8b7DSX/Fnxex48K69243+f4uIZlLRRk/J+hrFa5rx8=;        fh=dcQbx2GER3DEfqTPBbuzrfyhpJJnPi+NOJYzhd+1Hco=;        b=Z95CXwnjnyfw1TiiHE1kZCSi4XskjFD+ENB0cMAdIkgCNO3eiRq5T6f2zMyo4eLOgJ         9cbQgqCvkIrlMCTE73O/LljV7AEgxTHk2k48HzLcZC3KeQi9YZkHsppRtkfYr+ixxEjT         /TSJJGj5DKMwLj0v6ankWVF0uQlv2KsmnW/83XAOB5PPA47n3CCFxEk4cnvvmVmYKfr8         xTSaNmz9HZmtJALzoYQVhvWsA4Wi9sBT+irjvNeOJ9FQe+4rNf0TfJ60WsKEgumAApUt         1PEdUMYtcFbKb0bfOY+uj1zO2VQe25GdYhYPfSHiGNvB/+R7jrHwpSg0UIa3DwfYVBXu         QFLA==;        dara=google.com', 'ARC-Authentication-Results': 'i=1; mx.google.com;       dkim=pass header.i=@ptithcm-edu-vn.20230601.gappssmtp.com header.s=20230601 header.b=WoXrISC5;       spf=none (google.com: pctsv@ptithcm.edu.vn does not designate permitted sender hosts) smtp.mailfrom=pctsv@ptithcm.edu.vn;       dara=pass header.i=@student.ptithcm.edu.vn', 'Return-Path': '<d22cqat01-n+bncBCO7XOPBF4IMTG7HYADBUBHHZ5PQU@student.ptithcm.edu.vn>', 'Received-SPF': 'none (google.com: pctsv@ptithcm.edu.vn does not designate permitted sender hosts) client-ip=209.85.220.41;', 'Authentication-Results': 'mx.google.com;       dkim=pass header.i=@student-ptithcm-edu-vn.20230601.gappssmtp.com header.s=20230601 header.b=PUiSzgI0;       arc=pass (i=2 dkim=pass dkdomain=ptithcm-edu-vn.20230601.gappssmtp.com);       spf=none (google.com: d22cqat01-n+bncbco7xopbf4imtg7hyadbubhhz5pqu@student.ptithcm.edu.vn does not designate permitted sender hosts) smtp.mailfrom=d22cqat01-n+bncBCO7XOPBF4IMTG7HYADBUBHHZ5PQU@student.ptithcm.edu.vn;       dara=pass header.i=@student.ptithcm.edu.vn', 'DKIM-Signature': 'v=1; a=rsa-sha256; c=relaxed/relaxed;        d=student-ptithcm-edu-vn.20230601.gappssmtp.com; s=20230601; t=1746521546; x=1747126346; darn=student.ptithcm.edu.vn;        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post         :list-id:mailing-list:precedence:x-original-authentication-results         :x-original-sender:to:subject:message-id:date:from:mime-version:from         :to:cc:subject:date:message-id:reply-to;        bh=m8b7DSX/Fnxex48K69243+f4uIZlLRRk/J+hrFa5rx8=;        b=PUiSzgI0E/PisrM3eIKG1sgKtDrvr2w4/VbvWkQGBScYDhDi+ZYo+c3T5H9FfP0czF         AvVvIqXz1q74XyX6LmpHZ3p8Yd9Rj5v1iZyKYvaeNeqCfaOkwHeJ721Y/RJL+GZvHYPu         bY0hTQRSBR/bp2f0//dH5uLqYEVbthqLG4bn+qPXcnwAOjrJpRsvgm0q4ZMIOgRS6Jrd         6ypxnmQx+W7NBKeMvey2WpS3VJaK0Cdqg5kgeY4Lw9ELQRc/kVXHgHlmpQkcUMvOmzJP         qmK+NfkrpAn8DiuaRtjSfa32IUJ1AB24Ei9j0m5G2ZXq1pxk6gf3wf3L476azf9B6+w7         N8UA==', 'X-Google-DKIM-Signature': 'v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1746521546; x=1747126346;        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post         :x-spam-checked-in-group:list-id:mailing-list:precedence         :x-original-authentication-results:x-original-sender:to:subject         :message-id:date:from:mime-version:x-beenthere:x-gm-message-state         :from:to:cc:subject:date:message-id:reply-to;        bh=m8b7DSX/Fnxex48K69243+f4uIZlLRRk/J+hrFa5rx8=;        b=b3gwudcjGKONnkTteBaSFPbJc9Rx5M3Aq9iYT86EzppyfLDR7pkcrELpKMJIOv9tER         fsqtciDth8qZrNPiNTHcRozi3glAtLCfRyshhBaPFvbMZcbpzWZZKMOmnuWwdaV3Qf5q         fpOhQ8Iprm/B/y5dkCrVpmSqDyi6G9gA7qB1iowHK2A/nXjMU089heK6Z8+66M0VCTHj         tvtCXwPThejrQupk8kuV5isn0klI6mIkAVdXkVKOut230zBca3nzPwKlNNzIgqoXKj9g         VOjwxAHVgS1c+9D9mN9O9evXPioHh29VxemmRmmJKLx6jqx6JJc2JzyR70ZIV7W5y5ty         Ekrw==', 'X-Gm-Message-State': 'AOJu0Yy7IH/kwhbJL2tANp4kq5PGko7s2+MDafNpl+iJFhkfcLlRXcF4\teukgYkTjdZHXo7+3CAL7XaAsYzPsCcWXhJS1kvhDTOurP3bldNuGNBeyJXUrfyl4pA==', 'X-Google-Smtp-Source': 'AGHT+IEmOKWf40jAr/0Es0qgRnDS7pt1RW/HQu3hILV5ZOgoF7PqCTUPC5de8erqrfrw7I3dJphdNQ==', 'X-BeenThere': 'd22cqat01-n@student.ptithcm.edu.vn; h=AVT/gBFn3aZPK7c/DtozeKqe3eDLtthvIUCFfbFLNeu2v0Cr5A==', 'X-Gm-Gg': 'ASbGncu1GDsiEGppvH1riwHuxZz5Zi4SrNjZ6AyDMx2zNuCTDIcAzrHCh1YbVQjEYUx\t7rvzG+vzr8H9+0vL8bj+CapXgjSzE0zlEPoKby8KNnXcpkGHCUlVPSaqEVjtBh/fLWk/2dLmkgP\tf1jMjFwflOMni97DnbCHnwI+cNYAg/ybA=', 'MIME-Version': '1.0', 'From': '"(CTSV) Phong cong tac sinh vien" <pctsv@ptithcm.edu.vn>', 'Date': 'Tue, 06 May 2025 15:52:11 +0700', 'X-Gm-Features': 'ATxdqUF3GLd73X4q7rEAieRh7ndTDxAyIi-54LVEId9003Btn9ctHOahQ7vpS9Y', 'Message-ID': '<CACAgaDBj-H5biQvYfmQYeYG2Ogmqbs2wc7RWa2orTMjqaw-D6Q@mail.gmail.com>', 'Subject': 'Re: C? h?i ngo?i kh?a cho h?c sinh, sinh vi?n Vi?t Nam', 'To': 'd24cqvt01-n@student.ptithcm.edu.vn', 'Content-Type': 'multipart/alternative; boundary="0000000000001c2ce4063473bc02"', 'Bcc': 'd22cqat01-n@student.ptithcm.edu.vn', 'X-Original-Sender': 'pctsv@ptithcm.edu.vn', 'X-Original-Authentication-Results': 'mx.google.com;       dkim=pass header.i=@ptithcm-edu-vn.20230601.gappssmtp.com header.s=20230601 header.b=WoXrISC5;       spf=none (google.com: pctsv@ptithcm.edu.vn does not designate permitted sender hosts) smtp.mailfrom=pctsv@ptithcm.edu.vn;       dara=pass header.i=@student.ptithcm.edu.vn', 'Precedence': 'list', 'Mailing-list': 'list d22cqat01-n@student.ptithcm.edu.vn; contact d22cqat01-n+owners@student.ptithcm.edu.vn', 'List-ID': '<d22cqat01-n.student.ptithcm.edu.vn>', 'X-Spam-Checked-In-Group': 'd22cqat01-n@student.ptithcm.edu.vn', 'X-Google-Group-Id': '134060503702', 'List-Post': '<https://groups.google.com/a/student.ptithcm.edu.vn/group/d22cqat01-n/post>, <mailto:d22cqat01-n@student.ptithcm.edu.vn>', 'List-Help': '<https://support.google.com/a/student.ptithcm.edu.vn/bin/topic.py?topic=25838>, <mailto:d22cqat01-n+help@student.ptithcm.edu.vn>', 'List-Archive': '<https://groups.google.com/a/student.ptithcm.edu.vn/group/d22cqat01-n/>', 'List-Subscribe': '<https://groups.google.com/a/student.ptithcm.edu.vn/group/d22cqat01-n/subscribe>, <mailto:d22cqat01-n+subscribe@student.ptithcm.edu.vn>', 'List-Unsubscribe': '<mailto:googlegroups-manage+134060503702+unsubscribe@googlegroups.com>, <https://groups.google.com/a/student.ptithcm.edu.vn/group/d22cqat01-n/subscribe>'}
+2025-06-25 10:59:35,356 - INFO - Trích xuất đặc trưng email: {'hops': 4, 'missing_subject': 0, 'missing_to': 0, 'missing_content-type': 0, 'missing_mime-version': 0, 'missing_x-mailer': 1, 'missing_delivered-to': 0, 'missing_list-unsubscribe': 0, 'missing_received-spf': 0, 'missing_reply-to': 1, 'str_from_chevron': 1, 'str_to_chevron': 0, 'str_message-ID_dollar': 0, 'str_return-path_bounce': 0, 'str_content-type_texthtml': 0, 'domain_match_from_return-path': 0, 'domain_match_to_from': 0, 'domain_match_to_message-id': 0, 'domain_match_from_reply-to': 0, 'domain_match_message-id_from': 0, 'length_from': 56, 'num_recipients_to': 1, 'num_recipients_cc': 0, 'time_zone': 1, 'day_of_week': 1, 'span_time': 0, 'date_comp_date_received': 1, 'content-encoding-val': 0, 'received_str_forged': 1, 'number_replies': 0}
+2025-06-25 10:59:35,379 - INFO - Dự đoán cho Co_hoi_ngoai_khoa_cho_hoc_sinh_sinh_vien_Viet_Nam.eml: rf_confidence=8.0%, result=Hợp pháp
+2025-06-25 10:59:35,383 - INFO - 192.168.1.16 - - [25/Jun/2025 10:59:35] "POST /api/email/predict HTTP/1.1" 200 -
